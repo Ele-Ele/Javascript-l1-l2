@@ -13,7 +13,7 @@ REGOLE
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let number = 6; // contenitore al quale possiamo assegnare un valore numerico
-let name3 = "Eleonora"; //contenitore di caratteri visualizzati come testo. Non posso fare operazioni matematiche
+let name3 = "Eleonora"; //contenitore di caratteri (numeri o lettere), tra doppi apici, visualizzati come testo.
 let boolean = true; // assegna un valore che può essere solo vero o falso
 let admin = null; // indica l'assenza di un valore
 let admin4 = undefined; // indica che la variabile non è definita
@@ -47,14 +47,16 @@ let x = 12;
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-//name = "Proietti"; // errore
+//name = "Proietti"; // Error: Assignment to constant variable
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let n = 4;
 let risultato2 = x - 4;
+console.log("risultato", +(x - 4));
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
